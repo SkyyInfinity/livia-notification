@@ -21,7 +21,7 @@
     "toastinette notification library nodejs",
     "toastinette notification library javascript"
   ],
-  "author": "SkyyInfinity",
+  "author": "Dylan HAUTECOEUR",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SkyyInfinity/toastinette-nodejs/issues"
