@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/SkyyInfinity/toastinette-nodejs/issues"
   },
-  "homepage": "https://github.com/SkyyInfinity/toastinette-nodejs#readme"
+  "homepage": "https://github.com/SkyyInfinity/toastinette-nodejs#readme",
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
 }

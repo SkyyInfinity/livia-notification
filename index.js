@@ -1,6 +1,8 @@
 class Toastinette {
-	constructor(name) {
-		this.name = name;
-        console.log(`Toastinette ${this.name} is ready to serve!`);
+	constructor(options) {
+		this.options = options;
+        console.log(`Toastinette is ready to serve!`);
 	}
 }
+
+export default Toastinette;
