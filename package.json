@@ -1,0 +1,30 @@
+{
+  "name": "toastinette",
+  "version": "1.0.0",
+  "description": "Toastinette Notification is a JavaScript library for make toast notification in your own app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyyInfinity/toastinette-nodejs.git"
+  },
+  "keywords": [
+    "notification",
+    "toast",
+    "toastinette",
+    "toastinette notification",
+    "toastinette notification nodejs",
+    "toastinette notification javascript",
+    "toastinette notification library",
+    "toastinette notification library nodejs",
+    "toastinette notification library javascript"
+  ],
+  "author": "SkyyInfinity",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SkyyInfinity/toastinette-nodejs/issues"
+  },
+  "homepage": "https://github.com/SkyyInfinity/toastinette-nodejs#readme"
+}
