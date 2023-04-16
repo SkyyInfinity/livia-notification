@@ -3,5 +3,7 @@
 ##########################
 node_modules/
 package-lock.json
+yarn.lock
 .prettierrc
 index.html
+assets/css/reset.*

@@ -1,0 +1,95 @@
+/* =========================
+   Default Theme
+   ======================= */
+
+.livia-notice {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    background-color: var(--livia-c-background);
+    box-shadow: 0 0.4em 1.2em -0.2em rgba(0, 0, 0, 0.1);
+    border-radius: 1.4em;
+
+    &.livia-notice__success {
+        background-color: var(--livia-c-success-lighter);
+        color: var(--livia-c-success);
+
+        .livia-notice__icon {
+            color: var(--livia-c-success);
+        }
+        .livia-notice__content {
+            .livia-notice__title {
+                color: var(--livia-c-success);
+            }
+        }
+    }
+    &.livia-notice__error {
+        background-color: var(--livia-c-error-lighter);
+        color: var(--livia-c-error);
+
+        .livia-notice__icon {
+            color: var(--livia-c-error);
+        }
+        .livia-notice__content {
+            .livia-notice__title {
+                color: var(--livia-c-error);
+            }
+        }
+    }
+    &.livia-notice__warning {
+        background-color: var(--livia-c-warning-lighter);
+        color: var(--livia-c-warning);
+
+        .livia-notice__icon {
+            color: var(--livia-c-warning);
+        }
+        .livia-notice__content {
+            .livia-notice__title {
+                color: var(--livia-c-warning);
+            }
+        }
+    }
+    &.livia-notice__info {
+        background-color: var(--livia-c-info-lighter);
+        color: var(--livia-c-info);
+
+        .livia-notice__icon {
+            color: var(--livia-c-info);
+        }
+        .livia-notice__content {
+            .livia-notice__title {
+                color: var(--livia-c-info);
+            }
+        }
+    }
+
+    .livia-notice__icon {
+        padding: 1.2em 0.8em 1.2em 1.6em;
+        
+        img {
+            display: inline-block;
+            width: var(--livia-icon-size);
+            height: var(--livia-icon-size);
+            vertical-align: middle;
+            text-align: center;
+            line-height: 1.6em;
+        }
+    }
+    .livia-notice__content {
+        padding: 1.2em 1.6em 1.2em 0.8em;
+        font-size: 1.4em;
+        line-height: 1em;
+        flex: 1;
+        display: grid;
+        gap: 0.4em;
+
+        .livia-notice__title {
+            display: block;
+            font-weight: 700;
+        }
+        .livia-notice__message {
+            display: block;
+            font-weight: 200;
+        }
+    }
+}

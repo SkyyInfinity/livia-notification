@@ -1,0 +1,37 @@
+/* =========================
+   Base
+   ======================= */
+
+:root {
+    --livia-container-width: 360px;
+    --livia-icon-size: 2.4em;
+    --livia-c-success: #01D28E;
+    --livia-c-success-rgb: 1, 210, 142;
+    --livia-c-success-lighter: hsl(160, 99%, 94%);
+    --livia-c-success-darker: hsl(160, 99%, 36%);
+    --livia-c-error: #FF595E;
+    --livia-c-error-rgb: 255, 89, 94;
+    --livia-c-error-lighter: hsl(359, 100%, 96%);
+    --livia-c-error-darker: hsl(359, 100%, 65%);
+    --livia-c-warning: #FFCA3A;
+    --livia-c-warning-rgb: 255, 202, 58;
+    --livia-c-warning-lighter: hsl(48, 100%, 96%);
+    --livia-c-warning-darker: hsl(48, 100%, 65%);
+    --livia-c-info: #1982C4;
+    --livia-c-info-rgb: 25, 130, 196;
+    --livia-c-info-lighter: hsl(204, 100%, 96%);
+    --livia-c-info-darker: hsl(204, 100%, 65%);
+    --livia-c-background: #fff;
+    --livia-c-background-rgb: 255, 255, 255;
+    --livia-c-background-darker: #f7f8f9;
+}
+
+.livia-container {
+    position: absolute;
+    top: 1.6em;
+    left: 1.6em;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: var(--livia-container-width);
+    gap: 0.8em;
+}
