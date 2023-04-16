@@ -1,6 +1,6 @@
 
-# Toastinette Notification
-Toastinette Notification est un module Node.js conçu pour aider les développeurs à ajouter facilement des notifications à leurs applications web. Il fournit une API simple et intuitive pour créer des notifications en temps réel qui peuvent être affichées aux utilisateurs.
+# Livia Notification
+Livia Notification est un module Node.js conçu pour aider les développeurs à ajouter facilement des notifications à leurs applications web. Il fournit une API simple et intuitive pour créer des notifications en temps réel qui peuvent être affichées aux utilisateurs.
 
 ***
 
@@ -15,34 +15,34 @@ Toastinette Notification est un module Node.js conçu pour aider les développeu
 ***
 
 ## Installation <a id="installation"></a>
-Pour installer Toastinette Notification, vous pouvez utiliser le gestionnaire de paquets npm en exécutant la commande suivante :
+Pour installer Livia Notification, vous pouvez utiliser le gestionnaire de paquets npm en exécutant la commande suivante :
 
 ```bash
-npm install toastinette-notification
+npm install livia-notification
 ```
 
 ***
 
 ## How to use <a id="howtouse"></a>
-Pour utiliser Toastinette Notification dans votre application, vous devez d'abord l'importer :
+Pour utiliser Livia Notification dans votre application, vous devez d'abord l'importer :
 
 ```js
-const { Toastinette } = require('toastinette-notification');
+const { LiviaNotification } = require('livia-notification');
 ```
 Ou
 ```js
-import Toastinette from 'toastinette-notification';
+import LiviaNotification from 'livia-notification';
 ```
-Ensuite, vous pouvez créer une nouvelle instance de la classe ToastinetteNotification en spécifiant les options de configuration :
+Ensuite, vous pouvez créer une nouvelle instance de la classe LiviaNotification en spécifiant les options de configuration :
 
 ```js
 const options = {
   // les options de configuration
 };
 
-const notification = new Toastinette(options);
+const notification = new LiviaNotification(options);
 ```
-Une fois que vous avez créé une instance de Toastinette, vous pouvez utiliser les méthodes de l'API pour créer et afficher des notifications :
+Une fois que vous avez créé une instance de Livia, vous pouvez utiliser les méthodes de l'API pour créer et afficher des notifications :
 
 ```js
 // Créer une nouvelle notification
@@ -59,7 +59,7 @@ notification.afficher(newNotification);
 ***
 
 ## Setup options <a id="options"></a>
-Toastinette Notification accepte les options de configuration suivantes :
+Livia Notification accepte les options de configuration suivantes :
 
 - **duration :** La durée en millisecondes pendant laquelle la notification doit être affichée. Par défaut, la durée est de 5000 millisecondes.
 
@@ -72,16 +72,16 @@ Toastinette Notification accepte les options de configuration suivantes :
 ***
 
 ## Examples <a id="examples"></a>
-Voici un exemple d'utilisation de Toastinette Notification dans une application Express.js :
+Voici un exemple d'utilisation de Livia Notification dans une application Express.js :
 
 ```js
 const express = require('express');
-const { ToastinetteNotification } = require('toastinette-notification');
+const { LiviaNotification } = require('livia-notification');
 
 const app = express();
 
-// Créer une nouvelle instance de ToastinetteNotification avec les options par défaut
-const notification = new ToastinetteNotification();
+// Créer une nouvelle instance de LiviaNotification avec les options par défaut
+const notification = new LiviaNotification();
 
 app.get('/', (req, res) => {
   // Créer une nouvelle notification
@@ -105,9 +105,9 @@ app.listen(3000, () => {
 ***
 
 ## Contribute <a id="contribute"></a>
-Si vous souhaitez contribuer à Toastinette Notification, vous pouvez cloner le dépôt GitHub et soumettre des pull requests. Assurez-vous de bien tester vos modifications avant de les soumettre.
+Si vous souhaitez contribuer à Livia Notification, vous pouvez cloner le dépôt GitHub et soumettre des pull requests. Assurez-vous de bien tester vos modifications avant de les soumettre.
 
 ***
 
 ## License <a id="license"></a>
-Toastinette Notification est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
+Livia Notification est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.

@@ -1,0 +1,1 @@
+{"version":3,"sources":["..\\scss\\main.scss"],"names":[],"mappings":"AAAA;;6BAAA;AAIA,SAAA;AAEA,WAAA","file":"main.css","sourcesContent":["/* ===========================\r\n    Livia Notification CSS\r\n=========================== */\r\n\r\n/* Base */\r\n@import 'base';\r\n/* Themes */\r\n@import 'themes/default.theme';"]}

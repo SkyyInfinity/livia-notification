@@ -1,33 +1,37 @@
 {
-  "name": "toastinette",
-  "version": "1.0.0",
-  "description": "Toastinette Notification is a JavaScript library for make toast notification in your own app.",
+  "name": "livia-notification",
+  "version": "1.0.1",
+  "description": "Livia Notification is a JavaScript library for make toast notification in your own app.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SkyyInfinity/toastinette-nodejs.git"
+    "url": "git+https://github.com/SkyyInfinity/livia-notification.git"
   },
   "keywords": [
     "notification",
     "toast",
-    "toastinette",
-    "toastinette notification",
-    "toastinette notification nodejs",
-    "toastinette notification javascript",
-    "toastinette notification library",
-    "toastinette notification library nodejs",
-    "toastinette notification library javascript"
+    "livia",
+    "livia notification",
+    "livia notification nodejs",
+    "livia notification javascript",
+    "livia notification library",
+    "livia notification library nodejs",
+    "livia notification library javascript"
   ],
   "author": "Dylan HAUTECOEUR",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SkyyInfinity/toastinette-nodejs/issues"
+    "url": "https://github.com/SkyyInfinity/livia-notification/issues"
   },
-  "homepage": "https://github.com/SkyyInfinity/toastinette-nodejs#readme",
+  "homepage": "https://github.com/SkyyInfinity/livia-notification#readme",
   "devDependencies": {
     "eslint": "^8.38.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.10.4"
   }
 }
